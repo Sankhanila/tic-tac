@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust to center vertically */
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  background-color: #333;
+  width: 300px;
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  font-size: 36px;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: lightgray;
+}
+
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reset-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.reset-button:hover {
+  background-color: darkred;
+}
